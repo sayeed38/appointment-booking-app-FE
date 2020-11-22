@@ -1,0 +1,63 @@
+.root {
+  padding: 10px;
+  display: flex;
+  direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+}
+
+.right-section {
+  height: 100%;
+  width: 70%;
+}
+
+.right-section-events {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-section > h3 {
+  margin-left: 10px;
+}
+
+.form-input {
+  margin: 10px;
+}
+
+.show-event-form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  margin: 10px 0px;
+}
+.events-parent > h3 {
+  margin-left: 10px;
+}
+
+.event-card {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-datetime {
+  padding: 5px;
+  margin: 5px;
+}
+
+.no-events {
+  padding: 5px;
+  background-color: lightpink;
+}
