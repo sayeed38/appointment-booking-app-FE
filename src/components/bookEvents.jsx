@@ -210,12 +210,8 @@ function BookEvents() {
         <h3>Available Time Slots</h3>
         <div className="right-section-events">
           {availableEvent.map((event) => (
-            <Box m={1}>
-              <Button
-                key={event}
-                variant="outlined"
-                onClick={() => createEvent(event)}
-              >
+            <Box key={event} m={1}>
+              <Button variant="outlined" onClick={() => createEvent(event)}>
                 {event}
               </Button>
             </Box>

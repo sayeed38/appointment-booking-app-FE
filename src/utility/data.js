@@ -1,3 +1,3 @@
-const URL = "http://localhost:5000/api/";
+const URL = "https://appointment-booking-api.herokuapp.com/api/";
 
 export default URL;
