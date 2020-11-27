@@ -97,7 +97,8 @@ function BookEvents() {
     if (event.slice(5).trim() === "PM") {
       hour += 12;
     } else {
-      hour = "0" + hour;
+      console.log(event.slice(0, 1));
+      if (event.slice(0, 1) !== "1") hour = "0" + hour;
     }
     const datetime = date + "T" + hour + ":" + min;
     let response;
