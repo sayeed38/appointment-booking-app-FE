@@ -66,7 +66,10 @@ function BookEvents() {
   };
 
   const getDateVal = (selectedDate) => {
-    const dateVal = selectedDate.getDate();
+    let dateVal = selectedDate.getDate();
+    if (dateVal < 10) {
+      dateVal = "0" + dateVal;
+    }
     const month = selectedDate.getMonth() + 1;
     const year = selectedDate.getFullYear();
     const date = year + "-" + month + "-" + dateVal;
